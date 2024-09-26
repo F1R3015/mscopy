@@ -4,3 +4,4 @@ if( _nearest_checkpoint != pointer_null)
 	x = _nearest_checkpoint.x
 	y = _nearest_checkpoint.y 
 }
+damaged();

@@ -7,7 +7,7 @@ var _key_space = keyboard_check(vk_space);
 move_x = (_key_right-_key_left)*move_speed;
 move_y += 0.2;
 
-if(place_meeting(x,y+3,obj_block) && move_y >= 0)
+if(place_meeting(x,y+1,obj_block) && move_y >= 0)
 {
 	move_y = 0;
 	if(_key_space)

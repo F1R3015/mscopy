@@ -9,8 +9,8 @@
   "name":"obj_box",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Blocks",
+    "path":"folders/Objects/Blocks.yy",
   },
   "parentObjectId":{
     "name":"obj_block",
@@ -30,7 +30,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"_drop","filters":[],"listItems":[],"multiselect":false,"name":"_drop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"_drop","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"_drop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_coin","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

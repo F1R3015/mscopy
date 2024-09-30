@@ -1,2 +1,3 @@
-draw_text(20,10,$"Health: {obj_player.life}");
-draw_text(20,30,$"Score: {points}");
+draw_set_font(UI_Font);
+draw_text(60,30,$"Health: {obj_player.life}");
+draw_text(60,50,$"Score: {points}");
